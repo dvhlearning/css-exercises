@@ -2,7 +2,7 @@
   font-family: monospace;
   background: papayawhip;
   display: flex;
-  justify-content: center;
+  justify-content: space-between;
   align-items: center;
   padding: 10px;
 }
@@ -29,22 +29,7 @@ a {
   text-decoration: none;
 }
 
-.left-links {
-  justify-self: flex-start;
-  margin-right: auto;
-}
-.left-links ul {
-  display: flex;
-  justify-content: center;
-  gap: 10px;
-}
-
-.right-links {
-  display: flex;
-  justify-self: flex-end;
-  margin-left: auto;
-}
-.right-links ul {
+ul {
   display: flex;
   justify-content: center;
   gap: 10px;
